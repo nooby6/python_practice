@@ -11,6 +11,9 @@ root.configure(background="black")
 label_result=Label(root,width=25, height=2, text="0",anchor="e",font=("Arial", 40),bg="black",fg="white")
 label_result.pack()
 
-Button(root,text="C", width=5, font=("Arial", 20),bg="black",fg="white",borderwidth=0).pack(side=LEFT,expand=True,fill="both")
+Button(root,text="C", width=5, height=1, font=("Arial", 20),bg="black",fg="white",borderwidth=0).pack(side=LEFT,expand=True,fill="both")
+Button(root,text="DEL", width=5, height=1,font=("Arial", 20),bg="black",fg="white",borderwidth=0).pack(side=LEFT,expand=True,fill="both")
+Button(root,text="/", width=5, height=1, font=("Arial", 20),bg="black",fg="white",borderwidth=0).pack(side=LEFT,expand=True,fill="both")
+Button(root,text="7", width=5, height=1, font=("Arial", 20),bg="black",fg="white",borderwidth=0).pack(side=LEFT,expand=True,fill="both")
 
 root.mainloop()
